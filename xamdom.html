@@ -1,0 +1,30 @@
+<!DOCTYPE html>  
+<html>  
+<body>  
+<h1>Details:</h1>  
+<div>  
+<b>name:</b> <span id="name"></span><br>  
+<b>price:</b> <span id="price"></span><br>  
+<b>calories:</b> <span id="calories"></span>  
+</div>  
+<script>  
+if (window.XMLHttpRequest)  
+  {// code for IE7+, Firefox, Chrome, Opera, Safari  
+  xmlhttp=new XMLHttpRequest();  
+  }  
+else  
+  {// code for IE6, IE5  
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");  
+  }  
+xmlhttp.open("GET","beverages.xml",false);  
+xmlhttp.send();  
+xmlDoc=xmlhttp.responseXML;  
+document.getElementById("name").innerHTML=  
+xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;  
+document.getElementById("price").innerHTML=  
+xmlDoc.getElementsByTagName("price")[0].childNodes[0].nodeValue;  
+document.getElementById("calories").innerHTML=  
+xmlDoc.getElementsByTagName("calories")[0].childNodes[0].nodeValue;  
+</script>  
+</body>  
+</html>   

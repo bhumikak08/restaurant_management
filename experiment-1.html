@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---meta information about the HTML page-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--Title of the HTML page-->
+    <title>Login Page</title>
+
+</head>
+<!--Internal css can be done using style tag-->
+<!---Contains different CSS class selector that selects HTML elements with a specific class attribute,CSS element selector selects HTML elements based on the element name -->
+<!--@media  rule is used in media queries to apply different styles for different media types/devices-->
+<style>
+    section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+    section .imgBx {
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+
+    section .imgBx:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(225deg, #e91e63, #03a9f4);
+        z-index: 1;
+        mix-blend-mode: screen;
+
+    }
+
+    section .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section .contentBx {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    section .contentBx .formBx {
+        width: 100%;
+        padding: 55px;
+        background: rgb(255 255 255 / 0.9);
+        margin: 50px
+    }
+
+    section .contentBx .formBx h2 {
+        color: #607d8b;
+        font-weight: 600;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        border-bottom: 4px solid #ff4584;
+        display: inline-block;
+        letter-spacing: 1px;
+    }
+
+    section .contentBx .formBx .inputBx span {
+        font-size: 16px;
+        margin-bottom: 5px;
+        display: inline-block;
+        color: #607d8b;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    section .contentBx .formBx .inputBx input {
+        width: 100%;
+        padding: 10px 20px;
+        outline: none;
+        font-weight: 400;
+        border: 1px solid #607d8b;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #607d8b;
+        background: transparent;
+        border-radius: 30px;
+    }
+
+    section .contentBx .formBx .inputBx input[type="submit"] {
+        background: #ff4584;
+        color: #fff;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        cursor: pointer;
+       
+    }
+
+    section .contentBxn .formBx .imgBx input[type="submit"]:hover {
+        background: #f53677;
+
+    }
+
+    section .contentBx .formBx .remember {
+        margin-bottom: 10px;
+        color: #607d8b;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    section .contentBx .formBx .inputBx p {
+        color: #607d8b;
+    }
+
+    section .contentBx .formBx .inputBx p a {
+        color: #ff4584;
+    }
+
+    section .contentBx .formBx .sci {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .contentBx .formBx .sci li {
+        list-style: none;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #607d8b;
+        border-radius: 50%;
+        margin: 0 7px;
+        cursor: pointer;
+
+    }
+
+    section .contentBx .formBx .sci li:hover {
+        background: #ff4584;
+    }
+
+    section .contentBx .formBx .sci li img {
+        transform: scale(0.5);
+        filter: invert(1);
+    }
+
+    @media (max-width: 768px) {
+        section .imgBx {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        section .contentBx {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            z-index: 1
+        }
+    }
+</style>
+<!--element defines the document's body-->
+<body>
+    <section>
+        <!--The class helps in usinf the above given css, the respective design are chosen based on the names-->
+        <div class="imgBx">
+            <img
+                src="https://images.cdn4.stockunlimited.net/preview1300/cinema-background-with-movie-objects_1823382.jpg">
+        </div>
+        <div class="contentBx">
+            <div class="formBx">
+                <h2>Login</h2>
+                <form>
+                    <div class="inputBx">
+                        <span>Username</span>
+                        <input type="text" name="">
+                    </div>
+                    <div class="inputBx">
+                        <span>Password</span>
+                        <input type="password" name="">
+                    </div>
+                    <div class="remember"><br>
+                        <label><input type="checkbox" name="">Remember me</label>
+                    </div>
+                    <div class="inputBx"><br>
+                        <input type="submit" value="Sign in" name="">
+                    </div>
+                    <div class="inputBx"><br>
+                        <p>Don't have an account?<a href="#">Sign up</a></p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

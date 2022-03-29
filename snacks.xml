@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+<review xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="product.xsd">
+<food>
+<name>Grilled chicken snack wrap</name>
+<price>$1.39</price>
+<calories>240</calories>
+</food>
+<food>
+<name>vanilla cone</name>
+<price>$1.49</price>
+<calories>150</calories>
+</food>
+<food>
+<name>med fries </name>
+<price>140</price>
+<calories>380</calories>
+</food>
+<food>
+<name> large fries</name>
+<price>200</price>
+<calories>500</calories>
+</food>
+<food>
+<name>Dbl cheese burger</name>
+<price>70</price>
+<calories>440</calories>
+</food>
+</review>
+

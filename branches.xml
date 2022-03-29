@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="branches.xsl" type="text/xsl"?>
+<review1>
+<branch>
+<branch_name>B.M</branch_name>
+<country>Germany</country>
+<rating>4.5/5</rating>
+<address>Paul-Lincke-Ufer, 44, Berlin</address>
+</branch>
+<branch>
+<branch_name>B.M</branch_name>
+<country>India</country>
+<rating>4.9/5</rating>
+<address>Shop-1,No 8, 3rd street,filtht street light house city,caarlon road HAppater</address>
+</branch>
+<branch>
+<branch_name>B.M</branch_name>
+<country>Spain</country>
+<rating>4.6/5</rating>
+<address>Carres Sant Carlos, 4, Barcelona </address>
+</branch>
+
+</review1>

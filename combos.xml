@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+<review xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="product.xsd">
+<food>
+<name>Grilled caesar salad</name>
+<price>360</price>
+<calories>500</calories>
+</food>
+<food>
+<name>Grilled baecon ranch salad</name>
+<price>330</price>
+<calories>400</calories>
+</food>
+<food>
+<name>Grilled southwest salad</name>
+<price>350</price>
+<calories>550</calories>
+</food>
+</review>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+<review xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="product.xsd">
+<food>
+<name>Filet o fish</name>
+<price>250</price>
+<calories>380</calories>
+</food>
+<food>
+<name>southern style chicken</name>
+<price>250</price>
+<calories>400</calories>
+</food>
+<food>
+<name>3pc chicken selects </name>
+<price>270</price>
+<calories>400</calories>
+</food>
+<food>
+<name> Angus mushroom and swiss</name>
+<price>290</price>
+<calories>770</calories>
+</food>
+<food>
+<name>Dbl quarter pounder w/cheese </name>
+<price>330</price>
+<calories>740</calories>
+</food>
+<food>
+<name>Angus bacon and cheese</name>
+<price>270</price>
+<calories>790</calories>
+</food>
+<food>
+<name>Dbl cheese burger</name>
+<price>330</price>
+<calories>440</calories>
+</food>
+</review>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+<review xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="product.xsd">
+<food>
+<name>4pc Mcnuggets</name>
+<price>$3.79</price>
+<calories>190</calories>
+</food>
+<food>
+<name>Hamburger</name>
+<price>$3.19</price>
+<calories>250</calories>
+</food>
+<food>
+<name>Cheese burger</name>
+<price>250</price>
+<calories>300</calories>
+</food>
+<food>
+<name>Dbl cheese burger</name>
+<price>300</price>
+<calories>440</calories>
+</food>
+</review>
+

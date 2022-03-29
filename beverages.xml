@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+<review xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="product.xsd">
+<food>
+<name>Sprite</name>
+<price>75.00/140/180</price>
+<calories>110/150/310</calories>
+</food>
+<food>
+<name>Coke</name>
+<price>75.00/140/180</price>
+<calories>110/150/310</calories>
+</food>
+<food>
+<name>Cappuccino</name>
+<price>180/220/240</price>
+<calories>120/140/180</calories>
+</food>
+<food>
+<name>Mocha</name>
+<price>180/220/240</price>
+<calories>280/330/400</calories>
+</food>
+<food>
+<name>Vanilla milkshake</name>
+<price>180/220/240</price>
+<calories>420/550/740</calories>
+</food>
+<food>
+<name>Strawberry milkshake</name>
+<price>180/220/240</price>
+<calories>420/550/740</calories>
+</food>
+<food>
+<name>Chocolate milkshake</name>
+<price>180/220/240</price>
+<calories>420/580/770</calories>
+</food>
+
+</review>
